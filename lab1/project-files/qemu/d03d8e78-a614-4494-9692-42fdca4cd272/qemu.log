@@ -2,3 +2,4 @@ Start QEMU with /usr/bin/qemu-system-x86_64 -name CiscoIOSvL2Switch-1 -m 1024M -
 
 Execution log:
 qemu-system-x86_64: warning: host doesn't support requested feature: CPUID.80000001H:ECX.svm [bit 2]
+qemu-system-x86_64: terminating on signal 15 from pid 3133 (/usr/share/gns3/gns3-server/bin/python)
