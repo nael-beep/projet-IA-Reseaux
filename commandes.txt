@@ -1,0 +1,13 @@
+enable
+conf t
+interface GigabitEthernet0/1
+shutdown
+no shutdown
+shutdown
+no shutdown
+shutdown
+no shutdown
+
+
+service timestamps debug datetime msec
+service timestamps log datetime msec
