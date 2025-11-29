@@ -1,0 +1,40 @@
+Nov 29 08:54:29.253 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 29 08:54:29.253 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56967.
+Nov 29 08:54:29.260 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 29 08:54:29.260 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bakari/projet-IA-Reseaux/lab1/project-files/dynamips 
+Nov 29 08:54:29.260 GENERAL: working_dir=/home/bakari/projet-IA-Reseaux/lab1/project-files/dynamips
+Nov 29 08:54:29.260 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bakari/projet-IA-Reseaux/lab1/project-files/dynamips/9c9af7b2-98c9-47dc-a4a3-71e73f9886db 
+Nov 29 08:54:29.260 GENERAL: working_dir=/home/bakari/projet-IA-Reseaux/lab1/project-files/dynamips/9c9af7b2-98c9-47dc-a4a3-71e73f9886db
+Nov 29 08:54:29.260 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Nov 29 08:54:29.260 VM: VM R1 created.
+Nov 29 08:54:29.261 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5009 
+Nov 29 08:54:29.261 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Nov 29 08:54:29.261 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.261 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Nov 29 08:54:29.262 HYPERVISOR: exec_cmd: vm set_ios R1 /home/bakari/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Nov 29 08:54:29.262 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.262 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x62cc930c 
+Nov 29 08:54:29.262 HYPERVISOR: exec_cmd: vm set_ram R1 400 
+Nov 29 08:54:29.262 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-A1 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-FE-TX 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.263 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 PA-2FE-TX 
+Nov 29 08:54:29.264 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.264 HYPERVISOR: exec_cmd: vm slot_add_binding R1 4 0 PA-GE 
+Nov 29 08:54:29.264 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.264 HYPERVISOR: exec_cmd: vm slot_add_binding R1 5 0 PA-8E 
+Nov 29 08:54:29.264 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:54:29.264 HYPERVISOR: exec_cmd: vm slot_add_binding R1 6 0 PA-4E 
+Nov 29 08:54:29.304 HYPERVISOR: exec_cmd: vm set_ios R1 /home/bakari/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Nov 29 08:54:33.380 HYPERVISOR: exec_cmd: vm set_ios R1 /home/bakari/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Nov 29 08:57:02.861 HYPERVISOR: exec_cmd: vm get_status R1 
+Nov 29 08:57:02.862 HYPERVISOR: exec_cmd: vm extract_config R1 
+Nov 29 08:57:02.863 HYPERVISOR: exec_cmd: vm delete R1 
+Nov 29 08:57:02.863 VM: VM R1 destroyed.
+Nov 29 08:57:02.865 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 29 08:57:02.890 HYPERVISOR: Stopped.
+Nov 29 08:57:02.890 GENERAL: reset done.
