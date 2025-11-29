@@ -1,0 +1,14 @@
+# --- Environnement Virtuel Python ---
+.venv/
+
+# --- Fichiers GNS3 auto-générés ---
+# Ignorer tous les fichiers de projet GNS3
+**/project-files/
+*.gns3.backup
+
+# --- Fichiers VS Code ---
+.vscode/
+
+# --- Fichiers système ---
+__pycache__/
+*.pyc
